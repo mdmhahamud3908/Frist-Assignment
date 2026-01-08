@@ -37,6 +37,8 @@
     align-items: center;
     display: flex;
     cursor: pointer;
+    color: white;
+    font-weight: 700;
 }
 .btn1:hover{
     background-color: black;
@@ -69,6 +71,7 @@
     border-radius: 100px;
     font-size: 16px;
     color: #30B868;
+    font-weight:700;
 }
 /* .one-list li::marker{ //------------------------------------------
     content: "0";
@@ -87,4 +90,23 @@
     color: #FFFFFF;
     font-size: 18px;
     margin-bottom: 32px;
+}
+.button-section{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.btn-transparent{
+    padding: 16px;
+    border: 1px solid white;
+    background-color: #30b86900;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.btn-transparent:hover{
+    background: #30B868;   
+    color: black; 
 }
