@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    pad: 0;
+}
+
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.navbar{
+    padding: 16px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+    display: block;
+}
+.nav-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    font-size: 16px;
+    color: black;
+    align-items: center;
+}
+.btn1{
+    background-color: #30B868;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+}
+.hero-section{
+    background-image: url("./icon/hero-bg.png");
+    height: 675px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    text-align: center;
+    width: 100%;
+}
+.hero-caontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.one-list{
+    list-style-type: none;
+    padding: 8px 12px;
+    background: white;
+    max-width: 230px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 100px;
+    font-size: 16px;
+    color: #30B868;
+}
+/* .one-list li::marker{ //------------------------------------------
+    content: "0";
+}---------------------------- */
+
+.hero-content h1{
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+}
+.text-color{
+    color: #30B868;
+}
+.hero-content p{
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
