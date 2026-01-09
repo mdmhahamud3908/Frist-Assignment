@@ -7,14 +7,11 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
-.navbar{
+.Navbar-Section{
     padding: 16px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.nav-left{
-    display: block;
 }
 .nav-center{
     display: flex;
@@ -68,7 +65,7 @@
     background-color: rgba(122, 0, 0, 0.959);
     color: white;
 }
-.hero-section{
+.Banner-Section{
     background-image: url("./icon/hero-bg.png");
     height: 675px;
     background-size: cover;
@@ -77,7 +74,7 @@
     text-align: center;
     width: 100%;
 }
-.hero-caontainer{
+.Banner-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -149,27 +146,34 @@
     border-radius: 4px;
     font-weight: 700;
     gap: 10px;
+    display: flex;
+}
+.btn-transparent img{
+    max-width: 20px;
+    max-height: 20px;
+    margin: 1px;
+    filter: brightness(0) invert(1);
 }
 .btn-transparent:hover{
     background: #30B868;   
     color: black; 
     cursor: pointer;
 }
-.card-section{
+.Notes-Section{
     display: flex;
     justify-content: center;
     text-align: center;
 }
-.card-header{
+.Notes-Header{
     margin: 0 120px 45px 100px;
     padding-top: 100px;
     
 }
-.card-header h2{
+.Notes-Header h2{
     font-size: 48px;
     font-weight: bold;
 }
-.card-header p{
+.Notes-Header p{
     font-size: 16px;
     color: #627382;
 }
@@ -236,27 +240,27 @@
     font-size: 16px;
     color: #001931f6;
 }
-.middle-banner-section{
+.Second-Brain-Section{
     padding: 2px 120px 120px 120px;
 }
-.middle-container{
+.Second-Brain-container{
     padding: 80px 40px;
     text-align: center;
     background-color: #F7F6F2;
     border: none;
     border-radius: 12px;    
 }
-.middle-container h2{
+.Second-Brain-container h2{
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 16px;
 }
-.middle-container p{
+.Second-Brain-container p{
     font-size: 16px;
     color: #627382;
     margin-bottom: 24px;
 }
-.middle-container button{
+.Second-Brain-container button{
     margin-bottom: 16px;
 }
 .footer-section{
