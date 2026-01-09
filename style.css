@@ -110,3 +110,39 @@
     background: #30B868;   
     color: black; 
 }
+.card-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.card-header{
+    margin: 0 120px 45px 120px;
+    padding-top: 100px;
+    
+    
+}
+.card-header h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.card-header p{
+    font-size: 16px;
+    color: #627382;
+}
+.card-content{
+    display: flex;
+    gap: 25px;
+    margin: 45px 120px;
+}
+.card-view{
+    padding: 70px 25px 20px 25px;
+    box-shadow: 0 2px 50px 0 #00000015;
+    border: none;
+    border-radius: 8px;
+    
+}
+.card-view img{
+    background-color: #F95555;
+    padding: 10px;
+    border-radius: 100px;
+}
