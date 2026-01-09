@@ -39,9 +39,25 @@
     cursor: pointer;
     color: white;
     font-weight: 700;
+    margin: 0 auto;
 }
 .btn1:hover{
     background-color: black;
+    color: white;
+}
+.btn2{
+    background-color: #30B868;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+}
+.btn2:hover{
+    background-color: rgba(122, 0, 0, 0.959);
     color: white;
 }
 .hero-section{
@@ -109,6 +125,7 @@
 .btn-transparent:hover{
     background: #30B868;   
     color: black; 
+    cursor: pointer;
 }
 .card-section{
     display: flex;
@@ -190,4 +207,27 @@
     font-weight: 600;
     font-size: 16px;
     color: #001931f6;
+}
+.middle-banner-section{
+    padding: 2px 120px 120px 120px;
+}
+.middle-container{
+    padding: 80px 40px;
+    text-align: center;
+    background-color: #F7F6F2;
+    border: none;
+    border-radius: 12px;    
+}
+.middle-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.middle-container p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.middle-container button{
+    margin-bottom: 16px;
 }
