@@ -116,9 +116,8 @@
     text-align: center;
 }
 .card-header{
-    margin: 0 120px 45px 120px;
+    margin: 0 120px 45px 100px;
     padding-top: 100px;
-    
     
 }
 .card-header h2{
@@ -132,17 +131,63 @@
 .card-content{
     display: flex;
     gap: 25px;
-    margin: 45px 120px;
+    margin: 45px 120px 0px 120px;
 }
 .card-view{
     padding: 70px 25px 20px 25px;
-    box-shadow: 0 2px 50px 0 #00000015;
+    box-shadow: 0 2px 50px 0 #0000001a;
     border: none;
     border-radius: 8px;
     
+}
+.card-view h3{
+    color: #001931;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.card-view p{
+    color: #627382;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 .card-view img{
     background-color: #F95555;
     padding: 10px;
     border-radius: 100px;
+}
+.list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    gap: 60px;
+}
+.knowledge-image{
+    max-width: 600px;
+    max-height: 600px;
+}
+.list-container p{
+    color: #30B868;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.list-container h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.list-container h5{
+    color: #627382;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.list-container ul {
+    padding-left: 0;
+    margin-left: 0;
+    list-style: inside;
+    list-style-image: url("./icon/CheckCircle.png");
+    font-weight: 600;
+    font-size: 16px;
+    color: #001931f6;
 }
